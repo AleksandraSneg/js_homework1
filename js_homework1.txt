@@ -1,0 +1,69 @@
+//let x, y, z;
+//x = 'number';
+//y = 3;
+//z = 3;
+//console.log(x + y + z);
+
+//let x1, x2;
+//x1 = null
+//x2 = 3
+//console.log(x1 + x2);
+
+//let num, str;
+//num = 5;
+//str = 'qwerty';
+//let result = num && str;
+//console.log (result);
+
+//let num1 = +'40';
+//let num2 = +'2';
+//let str1 = "hillel"
+//let result1 = num1 + num2 + str1;
+//console.log(result1);
+
+//let result3 = '10' - 5 === 6; //'10' - 5 becomes 10 - 5, which equals 5
+//console.log(result3);
+
+//let bool1 = true;  // true is converted to 1
+//let bool2 = false; // false is converted to 0
+//let result4 = bool1 + bool2;
+//console.log(result4);
+
+//let result5 = '4px' - 3; // '4px' cannot converted to number due to px;
+//console.log(result5); //  (Not-a-Number)
+
+//let result6 = '4' - 3; // '4' is convertred to a number;
+//console.log(result6);
+
+//let result7 = '6' + 3 ** 0; // calculates 3 raised to the power of 0, any number raised to the power of 0 is 1;
+//console.log(result7);
+
+//let result8 = 12 / '6'; // division (/) is performed with a string and a number;
+//console.log(result8);
+
+//let result9 = '10' + (5 === 6); // (5 === 6) is false;
+//console.log(result9);
+
+//let result10 = null == ''; // null is a value representing "no value" or "empty, '' (an empty string) is a string with no characters;
+//console.log(result10);
+
+//let result11 = 3 ** (9 / 3); // (9/3) = 3, then 3**3;
+//console.log(result11);
+
+//let result12 = !!'false' == !!'true'; //!! operator is to convert a value into a boolean; !!'false' == !!'true' are truthy values;
+//console.log(result12);
+
+//let result13 = 0 || '0' && 1; // && operator is evaluated first and returns 1, and then the || operator returns 1 since 0 is falsy.
+//console.log(result13);
+
+//let result14 = (+null == false) < 1; //+null converts null to 0, 0 == false is true, true < 1 is false;
+//console.log(result14);
+
+//let result15 = false && true || true; // false && true evaluates to false, false || true then evaluates to true because the || operator returns the first truthy value, which is true;
+//console.log(result15);
+
+//let result16 = false && (false || true); // false || true evaluates to true, false && true evaluates to false because the && operator requires both operands to be truthy, but one of them is falsy;
+//console.log(result16);
+
+//let result17 = (+null == false) < 1 ** 5; // at first 0 == false is true; 1 ** 5 = 1; true < 1 is evaluated as 1 < 1, which is false.
+//console.log(result17);
