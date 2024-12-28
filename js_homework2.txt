@@ -1,0 +1,16 @@
+let x = 5;
+let y = 3;
+ hw2() {
+  let hw2 = Math.pow(x,y);
+  console.log (hw2);
+}
+hw2();
+
+function sumOfSquares(n) {
+  let i = 0;
+  while (n >= 0) {
+    i++;
+    i === 0;
+      }
+}
+(n)
