@@ -1,3 +1,0 @@
-var str = "apple, cloud, bright, table, paint, window, storm, green, world, music";
-var re = /^[^aA]{6,}$/
-console.log(str.search(re));
